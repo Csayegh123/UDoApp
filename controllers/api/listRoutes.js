@@ -22,6 +22,9 @@ router.post('/sendList', async (req, res) => {
 
  console.log("callapi");
  sendText(req.body.phoneNumber,req.body.listContent, res)
+ sendText(req.body.phoneNumber2,req.body.listContent, res)
+ sendText(req.body.phoneNumber3,req.body.listContent, res)
+ sendText(req.body.phoneNumber4,req.body.listContent, res)
 
   } catch (err) {
     res.status(400).json(err);
