@@ -33,9 +33,9 @@ document
   
     
     const phoneNumber = document.querySelector('#phoneNumber').value.trim();
-    const phoneNumber = document.querySelector('#phoneNumber2').value.trim();
-    const phoneNumber = document.querySelector('#phoneNumber3').value.trim();
-    const phoneNumber = document.querySelector('#phoneNumber4').value.trim();
+    const phoneNumber2 = document.querySelector('#phoneNumber2').value.trim();
+    const phoneNumber3 = document.querySelector('#phoneNumber3').value.trim();
+    const phoneNumber4 = document.querySelector('#phoneNumber4').value.trim();
     const description = document.querySelector('#list-desc').value.trim();
   
   console.log(phoneNumber, description);
@@ -46,7 +46,7 @@ document
       phoneNumber:phoneNumber,
       phoneNumber2:phoneNumber2,
       phoneNumber3:phoneNumber3,
-      phoneNumber3:phoneNumber4,
+      phoneNumber4:phoneNumber4,
       listContent:description
      }),
     headers: {

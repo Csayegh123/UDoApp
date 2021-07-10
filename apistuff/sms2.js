@@ -4,6 +4,9 @@ var request = require('request');
 
 module.exports = function sendText(phoneNumber, listContent, expressRes){
   const body = `{\n\t\"to\":\"${phoneNumber}\",\n\t\"content\":\"${listContent}\",\n\t\"from\":\"SMSINFO\",\n\t\"dlr\":\"yes\",\n\t\"dlr-method\":\"GET\", \n\t\"dlr-level\":\"2\", \n\t\"dlr-url\":\"http://yourcustompostbackurl.com\"\n}`
+  const body = `{\n\t\"to\":\"${phoneNumber2}\",\n\t\"content\":\"${listContent}\",\n\t\"from\":\"SMSINFO\",\n\t\"dlr\":\"yes\",\n\t\"dlr-method\":\"GET\", \n\t\"dlr-level\":\"2\", \n\t\"dlr-url\":\"http://yourcustompostbackurl.com\"\n}`
+  const body = `{\n\t\"to\":\"${phoneNumber3}\",\n\t\"content\":\"${listContent}\",\n\t\"from\":\"SMSINFO\",\n\t\"dlr\":\"yes\",\n\t\"dlr-method\":\"GET\", \n\t\"dlr-level\":\"2\", \n\t\"dlr-url\":\"http://yourcustompostbackurl.com\"\n}`
+  const body = `{\n\t\"to\":\"${phoneNumber4}\",\n\t\"content\":\"${listContent}\",\n\t\"from\":\"SMSINFO\",\n\t\"dlr\":\"yes\",\n\t\"dlr-method\":\"GET\", \n\t\"dlr-level\":\"2\", \n\t\"dlr-url\":\"http://yourcustompostbackurl.com\"\n}`
 
   
   var options = {
