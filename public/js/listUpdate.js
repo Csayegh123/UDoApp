@@ -44,9 +44,6 @@ document
     method: 'POST',
     body: JSON.stringify({
       phoneNumber:phoneNumber,
-      phoneNumber2:phoneNumber2,
-      phoneNumber3:phoneNumber3,
-      phoneNumber4:phoneNumber4,
       listContent:description
      }),
     headers: {
