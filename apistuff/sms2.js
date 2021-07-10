@@ -7,7 +7,7 @@ module.exports = function sendText(phoneNumber, listContent, expressRes){
 
   var options = {
     'method': 'POST',
-    'url': 'https://rest-api.d7networks.com/secure/sendbatch',
+    'url': 'https://rest-api.d7networks.com/secure/send',
     'headers': {
       'Content-Type': 'application/x-www-form-urlencoded',
       'Authorization': `Basic ${process.env.D7_KEY}`
