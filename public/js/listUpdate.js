@@ -40,16 +40,16 @@ document
   
   console.log(phoneNumber, description);
 
-  const response = await fetch(`/api/lists/sendList`, {
-    method: 'POST',
-    body: JSON.stringify({
-      phoneNumber:phoneNumber,
-      listContent:description
-     }),
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
+  // const response = await fetch(`/api/lists/sendList`, {
+  //   method: 'POST',
+  //   body: JSON.stringify({
+  //     phoneNumber:phoneNumber,
+  //     listContent:description
+  //    }),
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  // });
   };
 
   
