@@ -33,6 +33,9 @@ document
   
     
     const phoneNumber = document.querySelector('#phoneNumber').value.trim();
+    const phoneNumber = document.querySelector('#phoneNumber2').value.trim();
+    const phoneNumber = document.querySelector('#phoneNumber3').value.trim();
+    const phoneNumber = document.querySelector('#phoneNumber4').value.trim();
     const description = document.querySelector('#list-desc').value.trim();
   
   console.log(phoneNumber, description);
@@ -41,6 +44,9 @@ document
     method: 'POST',
     body: JSON.stringify({
       phoneNumber:phoneNumber,
+      phoneNumber2:phoneNumber2,
+      phoneNumber3:phoneNumber3,
+      phoneNumber3:phoneNumber4,
       listContent:description
      }),
     headers: {
