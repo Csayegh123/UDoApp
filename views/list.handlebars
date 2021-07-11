@@ -50,6 +50,18 @@
       <input id="phoneNumber" value="Phone Number" type="text"> </input>
       <button type="submit"> Send Text!</button>
 
+      <script type="text/javascript">
+    var apiUrl = 'https://rest-api.d7networks.com/secure/send';
+    fetch(apiUrl).then(response => {
+      return response.json();
+    }).then(data => {
+      // Work with JSON data here
+      console.log(data);
+    }).catch(err => {
+      // Do something for an error here
+    });
+</script>
+
        <input id="phoneNumber2" value="Phone Number2" type="text"> </input>
       <button type="submit"> Send Text!</button>
 
